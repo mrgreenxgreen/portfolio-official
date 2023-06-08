@@ -73,7 +73,7 @@
                     <img src="java_glow.png" alt="SVG Image" height="200" widt="200">
                 </div>   
                 <div class="imgBx" style="--i:3">
-                    <img src="Red_Hat_logo.png" alt="SVG Image" height="200" widt="200">
+                    <img src="Red_Hat_logo.webp" alt="SVG Image" height="200" widt="200">
                 </div>    
                 <div class="imgBx" style="--i:4">
                     <img src="aws.png" alt="SVG Image" height="200" widt="200">
@@ -82,7 +82,7 @@
                     <img src="mysql_glow.png" alt="SVG Image" height="200" widt="200">
                 </div>      
                 <div class="imgBx" style="--i:6">    
-                    <img src="springboot_glow.png" alt="SVG Image" height="200" widt="200">
+                    <img src="springboot_glow.webp" alt="SVG Image" height="200" widt="200">
                 </div>     
                 <div class="imgBx" style="--i:7">
                     <img src="mongodb_glow.png" alt="SVG Image" height="200" widt="200">
