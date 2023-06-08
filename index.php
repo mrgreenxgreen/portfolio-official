@@ -67,31 +67,31 @@
         <div class="container" >
             <div class="icon">
                 <div class="imgBx" style="--i:1">
-                    <img src="react_glow.png" alt="SVG Image" height="200" widt="200">
+                    <img src="react_glow.webp" alt="SVG Image" height="200" widt="200">
                 </div>   
                 <div class="imgBx" style="--i:2">
-                    <img src="java_glow.png" alt="SVG Image" height="200" widt="200">
+                    <img src="java_glow.webp" alt="SVG Image" height="200" widt="200">
                 </div>   
                 <div class="imgBx" style="--i:3">
                     <img src="Red_Hat_logo.webp" alt="SVG Image" height="200" widt="200">
                 </div>    
                 <div class="imgBx" style="--i:4">
-                    <img src="aws.png" alt="SVG Image" height="200" widt="200">
+                    <img src="aws.webp" alt="SVG Image" height="200" widt="200">
                 </div>     
                 <div class="imgBx" style="--i:5">    
-                    <img src="mysql_glow.png" alt="SVG Image" height="200" widt="200">
+                    <img src="mysql_glow.webp" alt="SVG Image" height="200" widt="200">
                 </div>      
                 <div class="imgBx" style="--i:6">    
                     <img src="springboot_glow.webp" alt="SVG Image" height="200" widt="200">
                 </div>     
                 <div class="imgBx" style="--i:7">
-                    <img src="mongodb_glow.png" alt="SVG Image" height="200" widt="200">
+                    <img src="mongodb_glow.webp" alt="SVG Image" height="200" widt="200">
                 </div>     
                 <div class="imgBx" style="--i:8">    
-                    <img src="nodejs_circle.png" alt="SVG Image" height="200" widt="200">
+                    <img src="nodejs_circle.webp" alt="SVG Image" height="200" widt="200">
                 </div>
                 <div class="imgBx" style="--i:9">    
-                    <img src="psd_glow.png" alt="SVG Image" height="200" widt="200">
+                    <img src="psd_glow.webp" alt="SVG Image" height="200" widt="200">
                 </div>
             </div>   
             
