@@ -100,7 +100,7 @@ body main{
   
   .invoker{
     margin:auto;
-    index:-1; position:absolute;
+    z-index: -1; position:absolute;
     top:35%;
     animation: floating 2s ease-in-out infinite;
     animation: bouncing 1.8s ease-in-out infinite;
