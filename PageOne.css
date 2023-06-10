@@ -4,13 +4,20 @@
     margin:0;
     padding: 0;
     box-sizing:border-box;
-    font-family: 'Cinzel', serif;
     color:white;
     /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-        /* font-family:'Times New Roman', Times, serif; */
+    /* font-family:'Times New Roman', Times, serif; */
 }
 
-body{
+body header{
+  top:0;
+  position:fixed;
+  z-index: 1000;
+}
+
+body main{
+  font-family: 'Cinzel', serif;
+
     display:flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +28,7 @@ body{
     /* background: linear-gradient(170deg, #f748d1, #810e76,#30012c); */
     /* background-image: url('backgroundscifi.jpg'); */
 }
+
 
 
 
@@ -94,13 +102,8 @@ body{
     margin:auto;
     index:-1; position:absolute;
     top:35%;
-    
-        animation: floating 2s ease-in-out infinite;
-      
-
-      
-    
-        animation: bouncing 1.8s ease-in-out infinite;
+    animation: floating 2s ease-in-out infinite;
+    animation: bouncing 1.8s ease-in-out infinite;
       
       
   }
@@ -303,3 +306,38 @@ margin:15px;
   border: 2px solid white;
   box-shadow: 0px 2px 15px 2px rgba(230, 232, 233, 0.644);
 }
+
+.Projects {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  flex-direction: row;
+  gap: 20px;
+  bottom: 0px;
+  position: absolute;
+  z-index: 500;
+  background-color: rgba(0, 0, 0, 0.507);
+  justify-content: center;
+
+}
+
+.Projects div {
+  padding:10px;
+  align-items: center;
+  bottom: 0;
+  height: 200px;
+  width: 300px;
+  float: left;
+  display:flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.507);
+  transition: transform 0.3s ease; /* Added this line for smooth transition */
+}
+
+.Projects div:hover {
+  border: 1px solid red;
+  transform: translateY(-100px); /* Added this line to move the div up */
+  height: 300px;
+  
+}
+
