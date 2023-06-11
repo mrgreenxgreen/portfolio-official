@@ -24,21 +24,8 @@ body main{
     min-height: 100vh;
     background-color: rgb(2, 4, 39);
     background-image: radial-gradient(circle, rgb(17, 86, 151)  , rgb(0, 26, 56)  , rgb(0, 4, 24) );
-    /* background-color: rgb(155, 197, 204);	 */ 
-    /* background: linear-gradient(170deg, #f748d1, #810e76,#30012c); */
-    /* background-image: url('backgroundscifi.jpg'); */
+ */
 }
-
-
-
-
-/* .container{
-    position:relative;
-    width:600px;
-    height:600px;
-    border-radius: 50%;
-    
-} */
 
 .container .icon{
     position: absolute;
@@ -49,18 +36,14 @@ body main{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    z-index:-100;
+    z-index:100;
 }
 
 .container .icon .imgBx{
     position: absolute;
     width: 50px;
     height: 50px;
-    /* border-radius: 50%; */
     transition: 0.5s;
-    /* border:1px solid #fff; */
-   /* box-shadow: 0 0 0 4px #222,
-   0 0 0 6px #fff; */
    transform: rotate(calc(360deg/9 * var(--i)));
    transform-origin: 320px;
    z-index: 100;
@@ -74,9 +57,9 @@ body main{
     left: 0;
     width: 100%;
     height: 100%;
-    /* border-radius: 50%; */
     object-fit:cover;
     transform: rotate(calc(-360deg/9 * var(--i)));
+    z-index: 100;
 }
 
 @keyframes rotateContainer {
@@ -88,11 +71,12 @@ body main{
     }
   }
   
+
   .container {
+    z-index: 100;
     position: absolute;
     width: 600px;
     height: 600px;
-    /* border: 2px solid #fff; */
     border-radius: 50%;
     animation: rotateContainer 20s linear infinite;
     
@@ -100,12 +84,11 @@ body main{
   
   .invoker{
     margin:auto;
-    z-index: -1; position:absolute;
+    z-index: 1; 
+    position:absolute;
     top:35%;
     animation: floating 2s ease-in-out infinite;
-    animation: bouncing 1.8s ease-in-out infinite;
-      
-      
+    animation: bouncing 1.8s ease-in-out infinite;      
   }
   
   @keyframes floating {
@@ -164,39 +147,26 @@ body main{
   }
   .center-menu{
     display: flex;
-    /* background: linear-gradient(to top, #222020, #8b7f7f); Add background gradient here */
-
-    /* background-color:gray; */
     height:110px;
     align-items: center;
     justify-content: space-between;
     border-radius: 50px 10px 10px 50px;
-    /* box-shadow: 2px 5px 20px 2px rgba(0, 0, 0, 0.644);  */
-    /* border: 2px solid rgb(184, 179, 179); */
   }
   
   .name-bar-name{
-    /* margin-top:10px; */
-    /* background-color: rgb(77, 4, 4); */
+ 
     background: linear-gradient(to bottom, #ee1f1f, #ad0202, #460000); /* Add background gradient here */
     width: 500px;
     text-align: center;
     color:white;
     border: 3px outset rgb(236, 194, 3);
-    border-radius:15px;
- 
-    /* z-index: -10;
-    position: fixed;
-        border-top: 50px solid #333;
-        border-right: 50px solid transparent; */
-      
+    border-radius:15px;   
   }
   .name-bar-name:hover{
     box-shadow: 0px 5px 15px 5px rgba(4, 146, 202, 0.644); 
 
   }
   .name-bar-position{
-    /* background-color: rgb(0, 63, 158); */
     background: linear-gradient(to bottom, #0270ee, #07135a); /* Add background gradient here */
     margin:2px;
     text-align: center;
@@ -217,17 +187,12 @@ body main{
     color:greenyellow;
   }
 
-  
- 
-
   #avatar{
-    /* border: 3px solid rgb(184, 179, 179); */
     border: 5px solid rgb(199, 170, 5);
     border-radius: 50%;
     height: 180px;
     background-color: black;
     overflow: hidden;
-    
   }
 
   #avatar img{
@@ -265,27 +230,21 @@ body main{
     margin-left:15px;
   }
 
-.Left-Bar a{
+  .Left-Bar a{
     margin-top:2vh;
     text-decoration: none;
     color:white;
-}
+  }
 .Left-Bar hr{
-    /* background-color:     rgb(2, 4, 39); */
-
     border:6px solid      rgba(2, 4, 39, 0);
-
-}
+  }
 
 .Left-Bar div{
-
     background: linear-gradient(90deg,rgb(8, 94, 27), rgba(8, 97, 38, 0.432));
-
-}
+  }
 .Left-Bar span{
   color:rgb(21, 182, 16);
   padding:5px;
- 
 }
 .Left-Bar span p{
   font-family: Arial, Helvetica, sans-serif;
@@ -295,17 +254,6 @@ body main{
 margin:15px;
 }
 
-.album div {
-  height: 200px;
-  border-radius: 10px;
-  transition: height 0.5s ease;
-}
-
-.album div:hover {
-  height: 700px;
-  border: 2px solid white;
-  box-shadow: 0px 2px 15px 2px rgba(230, 232, 233, 0.644);
-}
 
 .Projects {
   display: flex;
