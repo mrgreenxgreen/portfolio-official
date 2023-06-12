@@ -23,7 +23,7 @@ header('Cache-Control: max-age=259200');
         <div class="top-navigation">
             <div class="center-menu">
                 <div id="avatar">
-                    <img src="profpic.webp" height="100" width="100"/>
+                    <img src="profpic.webp" alt="dave dalimocon" height="100" width="100"/>
                 </div>
                 <div class="name-bar">
                     <div class="name-bar-name">
