@@ -109,30 +109,34 @@ header('Cache-Control: max-age=259200');
 
         <!-- bottom right navigation-->
         <div class="right_nav" style="  position:fixed; right:10px; display:flex; flex-direction:column;bottom:30%;text-decoration: none;"> 
-            <div style=" text-decoration: none; height:50px;width:50px;border-radius:15px;font-size:15px;border:2px solid rgb(110, 110, 107);text-align:center;display:flex;flex-direction: column;justify-content: center;">
+            <div style=" text-decoration: none; height:70px;width:70px;border-radius:15px;font-size:15px;border:2px solid rgb(110, 110, 107);text-align:center;display:flex;flex-direction: column;justify-content: center;">
                 <a  href="https://www.linkedin.com/in/davedalimocon/" 
                     target="_blank"
                     style="text-decoration: none;">
                         <span class="icon-social-linkedin"
                               style="font-size:1.5rem;"> 
                         </span>
+                        <small>linkedin</small>
                 </a>
             </div>
-            <div style="  height:50px;width:50px;;border-radius:15px ;font-size:15px;border:2px solid rgb(110, 110, 107);text-align:center;display:flex;flex-direction:column;justify-content: center;">
+            <div style="  height:70px;width:70px;;border-radius:15px ;font-size:15px;border:2px solid rgb(110, 110, 107);text-align:center;display:flex;flex-direction:column;justify-content: center;">
                 <a href="https://github.com/mrgreenxgreen"
                 target="_blank"
                 style="text-decoration: none;"
                 >
                     <span class="icon-social-github" 
                           style="font-size:1.5rem;"> 
+                         
                     </span>
+                    <small>github</small>
                 </a>
             </div>
-            <div style=" height:50px;width:50px;border-radius:15px;font-size:15px;border:2px solid rgb(110, 110, 107);text-align:center; display:flex;flex-direction:column;justify-content: center;   ">
+            <div style=" height:70px;width:70px;border-radius:15px;font-size:15px;border:2px solid rgb(110, 110, 107);text-align:center; display:flex;flex-direction:column;justify-content: center;   ">
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" style="text-decoration: none;">
                     <span class="icon-envelope"
                           style="font-size:1.5rem;">  
                     </span>
+                    <small>email</small>
                 </a>
             </div>
         </div>
